@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "Poppins-Black";
+  src: url("../Poppins/Poppins-Regular.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins-Black";
+  color: white;
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+}
+
+.container {
+  box-shadow: 0px 0px 10px 1px white;
+  width: 80%;
+  height: 100%;
+  background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
+
+.container nav {
+  border-bottom: 1px solid white;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container nav img {
+  color: red;
+  width: 3rem;
+}
+
+.container nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  gap: 30px;
+}
+
+.container nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.container nav ul li a:hover {
+  transition: 0.5s linear;
+  color: white;
+}
+
+.container form {
+  box-shadow: 0px 0px 5px 1px white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  gap: 20px;
+  height: 92vh;
+}
+
+input {
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+}
+
+.container form .name {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.container form .name label {
+  width: 20%;
+}
+.container form .name input {
+  width: 80%;
+  padding: 10px;
+}
+
+.container form .surname {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.container form .surname label {
+  width: 20%;
+}
+.container form .surname input {
+  width: 80%;
+  padding: 10px;
+}
+
+.container form .birthdate {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.container form .birthdate label {
+  width: 20%;
+}
+.container form .birthdate input {
+  width: 80%;
+  padding: 10px;
+}
+
+.container form .email {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.container form .email label {
+  width: 20%;
+}
+.container form .email input {
+  width: 80%;
+  padding: 10px;
+}
+
+button {
+  width: 20%;
+  padding: 10px;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #0078d7;
+  color: white;
+  border: 1px solid #0078d7;
+}
+
+button:hover {
+  background-color: white;
+  cursor: pointer;
+  color: #0078d7;
+  border: 1px solid #0078d7;
+  transition: 0.4s linear;
+}

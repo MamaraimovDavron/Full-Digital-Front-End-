@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "Poppins-Black";
+  src: url("./Poppins/Poppins-Regular.ttf");
+}
+
+/* index.html */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins-Black";
+  color: white;
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+}
+
+.container {
+  box-shadow: 0px 0px 10px 1px white;
+  /* border: 1px solid; */
+  width: 80%;
+  height: 100%;
+  background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
+
+.container nav {
+  border-bottom: 1px solid white;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container nav img {
+  color: red;
+  width: 3rem;
+}
+
+.container nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  gap: 30px;
+}
+
+.container nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.container nav ul li a:hover {
+  transition: 0.5s linear;
+  color: white;
+}
+
+/* bgIMG */
+
+.main {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.main main {
+  width: 60%;
+  height: 100%;
+}
+
+.main main .video {
+  height: 60%;
+  width: 100%;
+}
+
+.main main .video video {
+  width: 100%;
+}
+
+.main main .news {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+}
+
+.main main .news .new {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+}
+
+.main main .news .new img {
+  width: 600px;
+}
+
+.main main .news .new h5 {
+  font-size: 12px;
+  color: gray;
+}
+
+.main main .news .new a {
+  font-size: 12px;
+  color: gray;
+}
+
+.main main .news .new .right-new {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  width: 30%;
+  box-shadow: 0px 0px 1px 0px black;
+  padding: 5px;
+}
+
+.main main .news .new .right-new a {
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.main main .news .new .right-new a:hover {
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.main main .news .new .right-new p {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.main aside {
+  /* border: 1px solid red; */
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.main aside .box {
+  box-shadow: 0px 0px 1px 0px gray;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  gap: 10px;
+  /* align-items: center; */
+}
+
+.main aside .box img {
+  width: 50%;
+}
+.main aside .box a {
+  width: 50%;
+  color: black;
+}

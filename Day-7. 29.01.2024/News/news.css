@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Poppins-Black";
+  src: url("../Poppins/Poppins-Regular.ttf");
+}
+
+/* index.html */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins-Black";
+  color: white;
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+}
+
+.container {
+  box-shadow: 0px 0px 10px 1px white;
+  width: 80%;
+  height: 100%;
+  background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
+
+.container nav {
+  border-bottom: 1px solid white;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container nav img {
+  color: red;
+  width: 3rem;
+}
+
+.container nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  gap: 30px;
+}
+
+.container nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.container nav ul li a:hover {
+  transition: 0.5s linear;
+  color: white;
+}
+
+.container .newBox {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  gap: 20px;
+  font-family: "Arial";
+}
+
+.container .newBox h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container .newBox h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.container .newBox img {
+  width: 80%;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px 5px white;
+}
+
+.container .newBox p {
+  width: 90%;
+  font-size: 17px;
+  text-align: justify;
+}
