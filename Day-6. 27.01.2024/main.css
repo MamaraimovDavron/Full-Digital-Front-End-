@@ -17,17 +17,20 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Poppins-Black";
+  color: white;
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
 }
 
 .container {
-  box-shadow: 0px 0px 10px 10px rgb(236, 228, 228);
+  box-shadow: 0px 0px 10px 1px white;
   /* border: 1px solid; */
   width: 80%;
   height: 100%;
+  background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
 }
 
 .container nav {
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid white;
   padding: 12px;
   display: flex;
   flex-direction: row;
@@ -54,8 +57,8 @@ body {
 }
 
 .container nav ul li a:hover {
-  text-decoration: underline;
   transition: 0.5s linear;
+  color: white;
 }
 
 /* bgIMG */

@@ -3,8 +3,6 @@
   src: url("../Poppins/Poppins-Regular.ttf");
 }
 
-/* index.html */
-
 * {
   padding: 0;
   margin: 0;
@@ -17,16 +15,19 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Poppins-Black";
+  color: white;
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
 }
 
 .container {
-  box-shadow: 0px 0px 10px 10px rgb(236, 228, 228);
+  box-shadow: 0px 0px 10px 1px white;
   width: 80%;
   height: 100%;
+  background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
 }
 
 .container nav {
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid white;
   padding: 12px;
   display: flex;
   flex-direction: row;
@@ -53,19 +54,30 @@ body {
 }
 
 .container nav ul li a:hover {
-  text-decoration: underline;
   transition: 0.5s linear;
+  color: white;
 }
 
 .container form {
-  /* box-shadow: 0px 0px 1px 1px gray; */
+  box-shadow: 0px 0px 5px 1px white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 60%;
   margin: auto;
   padding: 20px;
   gap: 20px;
+  height: 92vh;
+}
+
+input {
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
 }
 
 .container form .name {
@@ -139,6 +151,7 @@ button {
 
 button:hover {
   background-color: white;
+  cursor: pointer;
   color: #0078d7;
   border: 1px solid #0078d7;
   transition: 0.4s linear;
