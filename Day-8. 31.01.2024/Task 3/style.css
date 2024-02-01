@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 50%;
+  height: 100%;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 20px;
+}
+/* top */
+
+.container .top {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.container .top .box {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 5px 5px 1px gray;
+  height: 40%;
+}
+
+.container .top .box .box-header {
+  height: 40%;
+  width: 100%;
+}
+
+.container .top .box .box-header img {
+  width: 100%;
+}
+
+.container .top .box .box-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .top .box .box-body h3 {
+  font-size: 22px;
+  text-align: left;
+}
+
+.container .top .box .box-body p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
+}
+.container .top .box .box-body a {
+  text-decoration: none;
+  border: 1px solid gray;
+  display: inline-block;
+  width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  background-color: gray;
+  text-align: center;
+  padding: 8px 16px;
+}
+
+/* bottom */
+
+.container .bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.container .bottom .box {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 5px 5px 1px gray;
+  height: 40%;
+}
+
+.container .bottom .box .box-header {
+  height: 40%;
+  width: 100%;
+}
+
+.container .bottom .box .box-header img {
+  width: 100%;
+}
+
+.container .bottom .box .box-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .bottom .box .box-body h3 {
+  font-size: 22px;
+  text-align: left;
+}
+
+.container .bottom .box .box-body p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
+}
+.container .bottom .box .box-body a {
+  text-decoration: none;
+  border: 1px solid gray;
+  display: inline-block;
+  width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  background-color: gray;
+  text-align: center;
+  padding: 8px 16px;
+}
