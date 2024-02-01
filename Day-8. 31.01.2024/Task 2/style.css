@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container .top {
+  height: 15vh;
+  background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .top h2 {
+  font-size: 35px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+}
+
+.container .bottom {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 10px;
+  padding: 0 10px 10px 10px;
+}
+.container .bottom .box {
+  padding: 10px;
+  gap: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
+}
+
+.container .bottom .box h3 {
+  font-size: 25px;
+  margin-top: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container .bottom .box p {
+  text-align: left;
+  font-size: 18px;
+}
+
+.container .bottom .one {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .bottom .one {
+  background-color: red;
+}
+
+.container .bottom .two {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .bottom .three {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container .bottom .three .up {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container .bottom .three .up .card {
+  gap: 50px;
+  width: 22%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom, #d5dee7 0%, #e8ebf2 50%, #e2e7ed 100%),
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.02) 50%,
+      rgba(255, 255, 255, 0.02) 61%,
+      rgba(0, 0, 0, 0.02) 73%
+    ),
+    linear-gradient(33deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background-blend-mode: normal, color-burn;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.container .bottom .three .up .blush {
+  width: 100%;
+}
