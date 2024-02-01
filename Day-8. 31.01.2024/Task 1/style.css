@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  gap: 10px;
+}
+
+/* top */
+.container .top {
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+}
+
+.container .top .box {
+  /* background-color: green; */
+  background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
+  width: 33%;
+  border-radius: 8px;
+}
+
+/* bottom */
+
+.container .bottom {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80vh;
+  gap: 10px;
+}
+
+.container .bottom .left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  border-radius: 8px;
+}
+
+.container .bottom .left .box {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  border-radius: 8px;
+}
+
+.container .bottom .right {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container .bottom .right .box {
+  height: 25%;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
