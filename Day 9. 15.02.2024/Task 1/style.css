@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 80%;
+  margin: 100px auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container .top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container .top div {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.container .top .shadow-4 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px 10px gray;
+}
+
+.container .top .shadow-5 {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 10px 15px gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .top .shadow-6 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 15px 20px gray;
+}
+
+.container .bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container .bottom div {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.container .bottom .shadow-sharp {
+  box-shadow: 0px 8px 10px gray;
+}
+
+.container .bottom .shadow-diffuse {
+  box-shadow: 1px 12px 10px gray;
+}
+
+.container .bottom .shadow-dreamy {
+  box-shadow: 5px 5px 20px gray;
+}
+
+.container .bottom .shadow-shorter {
+  box-shadow: 0px 2px 5px gray;
+}
+
+.container .bottom .shadow-longer {
+  box-shadow: 0px 20px 15px gray;
+}
