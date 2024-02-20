@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  padding: 80px;
+}
+
+.container .box {
+  width: 200px;
+  height: 400px;
+  position: relative;
+  perspective: 100px;
+}
+
+#div1 {
+  height: 350px;
+  width: 120px;
+  margin-left: 60px;
+  /* border: 1px solid blue; */
+  perspective: 200px;
+}
+
+#div2 {
+  padding: 100px;
+  position: absolute;
+  transform-style: preserve-3d;
+  transform: rotateX(45deg);
+  background-color: purple;
+}
+
+#div2:hover {
+  transform: rotateX(0deg);
+  transition: 0.5s linear;
+}
+
+#div3 {
+  height: 350px;
+  width: 120px;
+  margin-left: 60px;
+  perspective: 200px;
+}
+
+#div4 {
+  padding: 100px;
+  position: absolute;
+  transform-style: preserve-3d;
+  background-color: orange;
+  transform: rotateX(45deg);
+}
+
+#div4:hover {
+  transform: rotateX(0deg);
+  transition: 0.5s linear;
+}
+
+#div5 {
+  height: 350px;
+  width: 120px;
+  margin-left: 60px;
+  perspective: 200px;
+}
+
+#div6 {
+  padding: 100px;
+  position: absolute;
+  transform-style: preserve-3d;
+  transform: rotateX(45deg);
+  background-color: purple;
+}
+
+#div6:hover {
+  transform: rotateX(0deg);
+  transition: 0.5s linear;
+}
