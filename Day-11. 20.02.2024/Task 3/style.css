@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.container .box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  animation: animate 1s alternate infinite;
+}
+
+@keyframes animate {
+  from {
+    transform: translateY(-50px) scaleY(1.1);
+  }
+  to {
+    transform: translateY(50px) scaleY(0.9);
+  }
+}
