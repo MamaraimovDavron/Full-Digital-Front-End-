@@ -17,11 +17,11 @@ let library = [
 function showData(object) {
   for (const book of object) {
     console.log(
-      "Kitob muallifi: " + book.author,
+      "\n" + " Kitob muallifi: " + book.author,
       "\n",
       "Kitob nomi: " + book.title,
       "\n",
-      "O`qish holati: " + book.readingStatus
+      "O`qish holati: " + (book.readingStatus ? "Mavjud" : "Mavjud emas")
     );
   }
 }
