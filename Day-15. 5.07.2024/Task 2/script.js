@@ -3,8 +3,10 @@ let sum = 0;
 
 function calculateGrade(marks) {
   for (let i = 0; i < marks.length; i++) {
-    sum += marks[i] / marks.length;
+    sum += marks[i];
   }
+
+  sum /= marks.length;
   if (sum > 1 && sum < 59) {
     console.log("F");
   } else if (sum > 60 && sum < 69) {
