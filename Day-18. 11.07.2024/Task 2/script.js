@@ -3,8 +3,10 @@ let average = 0;
 
 function calculateGrade(marks) {
   for (let i = 0; i < marks.length; i++) {
-    average += marks[i] / marks.length;
+    average += marks[i];
   }
+
+  average /= marks.length;
 
   if (average > 1 && average < 59) {
     console.log("F");
